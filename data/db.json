@@ -1,0 +1,21 @@
+{
+  "ids": {
+    "Delivery": 5,
+    "Letter": 3,
+    "Parcel": 2
+  },
+  "models": {
+    "Delivery": {
+      "1": "{\"deliverableType\":\"Letter\",\"id\":\"1\"}",
+      "2": "{\"deliverableType\":\"Letter\",\"id\":\"2\"}",
+      "3": "{\"deliverableType\":\"Parcel\",\"id\":\"3\"}"
+    },
+    "Letter": {
+      "1": "{\"deliveryId\":\"1\",\"id\":\"1\"}",
+      "2": "{\"deliveryId\":\"2\",\"id\":\"2\"}"
+    },
+    "Parcel": {
+      "1": "{\"deliveryId\":\"3\",\"id\":\"1\"}"
+    }
+  }
+}
